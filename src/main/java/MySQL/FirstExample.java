@@ -4,29 +4,42 @@ import java.sql.*;
  * Created by masinogns on 2017. 10. 25..
  */
 public class FirstExample {
-    // JDBC driver name and database URL
-    static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
-    static final String DB_URL = "jdbc:mysql://183.111.183.101:3306/captanp696";
 
-    //  Database credentials
-    static final String USER = "captanp696";
-    static final String PASS = "parkli**99";
+    private Connection connection;
+    private String jdbcDriver, dbUrl, dbId, dbPw;
 
-    public static void main(String[] args) {
-        Connection conn = null;
+    public FirstExample(String jdbcDriver, String dbUrl, String dbId, String dbPw) {
+        this.jdbcDriver = jdbcDriver;
+        this.dbUrl = dbUrl;
+        this.dbId = dbId;
+        this.dbPw = dbPw;
+    }
+
+    public Connection getConnection() throws ClassNotFoundException, SQLException {
+        Class.forName(jdbcDriver);
+        //STEP 3: Open a connection
+        System.out.println("Connecting to database...");
+        connection = DriverManager.getConnection(dbUrl, dbId, dbPw);
+
+        return connection;
+    }
+
+    public void createTable(String sql, Connection connection) throws SQLException {
+        Statement statement;
+        statement = connection.createStatement();
+        statement.executeQuery(sql);
+        System.out.println("Database created successfully...");
+    }
+
+
+    public static void main(String[] args) throws SQLException, ClassNotFoundException {
+        Connection connection = null;
         Statement stmt = null;
 
         try{
-            //STEP 2: Register JDBC driver
-            Class.forName("com.mysql.jdbc.Driver");
-
-            //STEP 3: Open a connection
-            System.out.println("Connecting to database...");
-            conn = DriverManager.getConnection(DB_URL,USER,PASS);
-
             //STEP 4: Execute a query
             System.out.println("Creating statement...");
-            stmt = conn.createStatement();
+            stmt = connection.createStatement();
             String sql;
             sql = "SELECT id, first, last, age FROM Employees";
             ResultSet rs = stmt.executeQuery(sql);
@@ -40,7 +53,7 @@ public class FirstExample {
                 String last = rs.getString("last");
 
                 //Display values
-                System.out.print("ID: " + id);
+                System.out.print("DB_ID: " + id);
                 System.out.print(", Age: " + age);
                 System.out.print(", First: " + first);
                 System.out.println(", Last: " + last);
@@ -48,7 +61,8 @@ public class FirstExample {
             //STEP 6: Clean-up environment
             rs.close();
             stmt.close();
-            conn.close();
+            connection.close();
+
         }catch(SQLException se){
             //Handle errors for JDBC
             se.printStackTrace();
@@ -63,12 +77,15 @@ public class FirstExample {
             }catch(SQLException se2){
             }// nothing we can do
             try{
-                if(conn!=null)
-                    conn.close();
+                if(connection!=null)
+                    connection.close();
             }catch(SQLException se){
                 se.printStackTrace();
             }//end finally try
         }//end try
         System.out.println("Goodbye!");
     }//end main
+
+
+
 }//end FirstExample
