@@ -3,6 +3,7 @@ package MySQL;
 import org.junit.Test;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 import static org.junit.Assert.*;
 
@@ -25,11 +26,11 @@ public class createMySQLTest {
 
     @Test
     public void createTableTest() throws Exception{
-        String sql = "CREATE TABLE REGISTRATIONss " +
-                "(id INTEGER not NULL, " +
-                " first VARCHAR(255), " +
-                " last VARCHAR(255), " +
-                " age INTEGER, " +
+        String sql = "CREATE TABLE aaa " +
+                "(id INTEGER not NULL auto_increment, " +
+                " firstname VARCHAR(255), " +
+                " lastname VARCHAR(255), " +
+                " secondname varchar(255), " +
                 " PRIMARY KEY ( id ))";
 
         application.createTable(sql);
@@ -37,16 +38,31 @@ public class createMySQLTest {
 
     @Test
     public void dropTableTest() throws Exception {
-        String tableName = "REGISTRATIONss";
+        String tableName = "aaa";
 
         application.dropTable(tableName);
     }
 
     @Test
     public void insertTableTest() throws Exception {
-        ArrayList<ArrayList<String>> Data = null;
-        String tableName = "";
+        ArrayList<ArrayList<String>> Data = new ArrayList<ArrayList<String>>();
 
-        application.insertDataToTable(tableName, Data);
+        ArrayList<String> items = new ArrayList<String>(Arrays.asList(
+                "aaa","aaa","aaa"
+        ));
+        ArrayList<String> items1 = new ArrayList<String>(Arrays.asList(
+                "eee","eee","eee"
+        ));
+        ArrayList<String> items2 = new ArrayList<String>(Arrays.asList(
+                "ccc","ccc","ccc"
+        ));
+
+        Data.add(items); Data.add(items1); Data.add(items2);
+
+        String tableName = "aaa";
+
+        // ArrayList<String>의 길이는 3으로 고정되어있어서 에러없이 돌아간다.
+        application.insert(tableName, Data);
     }
+
 }

@@ -1,9 +1,6 @@
 package MySQL;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 import java.util.ArrayList;
 
 /**
@@ -152,5 +149,55 @@ public class createMySQL {
         }//end try
         System.out.println("Goodbye!");
     }//end main
+
+    public void insert(String tableName, ArrayList<ArrayList<String>> data) throws SQLException {
+        PreparedStatement preparedStatement = null;
+
+        String insertTableSQL = "INSERT INTO "+tableName
+                + "(firstname, lastname, secondname) VALUES"
+                + "(?,?,?)";
+
+        try {
+            //STEP 2: Register JDBC driver
+            Class.forName(JDBC_DRIVER);
+
+            //STEP 3: Open a connection
+            System.out.println("선택된 데이터베이스와 연결 중입니다...");
+            conn = DriverManager.getConnection(DB_URL, DB_ID, DB_PW);
+            System.out.println("데이터베이스에 성공적으로 연결되었습니다...");
+
+            preparedStatement = conn.prepareStatement(insertTableSQL);
+
+            for (ArrayList<String> oneThing : data){
+                String one = null;
+                String two = null;
+                String three = null;
+
+                one = oneThing.get(0);
+                two = oneThing.get(1);
+                three = oneThing.get(2);
+
+                preparedStatement.setString(1, one);
+                preparedStatement.setString(2, two);
+                preparedStatement.setString(3, three);
+
+                // execute insert SQL stetement
+                preparedStatement.executeUpdate();
+            }
+
+
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } finally {
+            if (preparedStatement != null) {
+                preparedStatement.close();
+            }
+            if (conn != null) {
+                conn.close();
+            }
+        }
+    }
 }
 

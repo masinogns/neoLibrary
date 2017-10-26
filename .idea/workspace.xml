@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb8f9d39-ed4b-4c52-b9d3-0ff56328156a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/MySQL/FirstExample.class" afterPath="$PROJECT_DIR$/target/classes/MySQL/FirstExample.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/neoXMLToMySql.iml" afterPath="$PROJECT_DIR$/neoXMLToMySql.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/MySQL/FirstExample.java" afterPath="$PROJECT_DIR$/src/main/java/MySQL/FirstExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/MySQL/createMySQL.java" afterPath="$PROJECT_DIR$/src/main/java/MySQL/createMySQL.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/MySQL/createMySQLTest.java" afterPath="$PROJECT_DIR$/src/test/java/MySQL/createMySQLTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -97,7 +93,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/MySQL/FirstExampleTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
-              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <marker date="1508981469000" expanded="true" signature="653:911" ph="CREATE TABLE... aaa" />
@@ -106,26 +102,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="createMySQL.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="createMySQL.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MySQL/createMySQL.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="121" column="52" lean-forward="true" selection-start-line="121" selection-start-column="52" selection-end-line="121" selection-end-column="52" />
+            <state relative-caret-position="629">
+              <caret line="184" column="50" lean-forward="true" selection-start-line="184" selection-start-column="50" selection-end-line="184" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1508983240000" expanded="true" signature="3564:3645" ph="INSERT INTO Registration... " />
+                <marker date="1508985412000" expanded="true" signature="3467:3548" ph="INSERT INTO Registration... " />
+                <marker date="1508985412000" expanded="true" signature="4755:4866" ph="INSERT INTO DBUSER... " />
+                <marker date="1508985412000" expanded="true" signature="4798:4838" ph="(id, firstna... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="createMySQLTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="createMySQLTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MySQL/createMySQLTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="572">
-              <caret line="49" column="48" lean-forward="false" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
+              <caret line="63" column="56" lean-forward="false" selection-start-line="63" selection-start-column="56" selection-end-line="63" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1258#1277#0" expanded="true" />
+                <element signature="e#1329#1337#0" expanded="true" />
+                <element signature="e#1447#1455#0" expanded="true" />
+                <element signature="e#1565#1573#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -172,8 +174,8 @@
         <option value="$PROJECT_DIR$/src/test/java/ReadXMLFileTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/MySQL/FirstExampleTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/MySQL/FirstExample.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MySQL/createMySQLTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/MySQL/createMySQL.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MySQL/createMySQLTest.java" />
       </list>
     </option>
   </component>
@@ -373,28 +375,7 @@
       <recent name="$PROJECT_DIR$/lib" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.createMySQLTest.dropTableTest">
-    <configuration default="false" name="ReadXMLFileTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="neoXMLToMySql" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ReadXMLFileTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.createMySQLTest.insertTableTest">
     <configuration default="false" name="FirstExampleTest.createTableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -486,6 +467,32 @@
       <option name="PACKAGE_NAME" value="MySQL" />
       <option name="MAIN_CLASS_NAME" value="MySQL.createMySQLTest" />
       <option name="METHOD_NAME" value="dropTableTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="createMySQLTest.insertTableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="MySQL.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="neoXMLToMySql" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="MySQL" />
+      <option name="MAIN_CLASS_NAME" value="MySQL.createMySQLTest" />
+      <option name="METHOD_NAME" value="insertTableTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -880,19 +887,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ReadXMLFileTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.FirstExampleTest.createTableTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.createMySQLTest.createTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.createMySQLTest.createTableTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.createMySQLTest.dropTableTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.FirstExampleTest.createTableTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.createMySQLTest.createTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.createMySQLTest.createTableTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.createMySQLTest.dropTableTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.createMySQLTest.insertTableTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.createMySQLTest.dropTableTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.createMySQLTest.insertTableTest" />
         <item index="1" class="java.lang.String" itemvalue="JUnit.createMySQLTest.createTableTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.createMySQLTest.createTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.FirstExampleTest.createTableTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ReadXMLFileTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.createMySQLTest.dropTableTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.createMySQLTest.createTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.FirstExampleTest.createTableTest" />
       </list>
     </recent_temporary>
   </component>
@@ -907,44 +914,44 @@
       <option name="presentableId" value="Default" />
       <updated>1508912453232</updated>
       <workItem from="1508912456251" duration="7462000" />
-      <workItem from="1508978518930" duration="4628000" />
+      <workItem from="1508978518930" duration="6706000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FirstExampleTest_createTableTest - 2017.10.26 at 10h 30m 25s.xml">
-      <configuration name="FirstExampleTest.createTableTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstExampleTest_createTableTest - 2017.10.26 at 10h 32m 12s.xml">
-      <configuration name="FirstExampleTest.createTableTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReadXMLFileTest - 2017.10.26 at 10h 05m 25s.xml">
-      <configuration name="ReadXMLFileTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="createMySQLTest_createTableTest - 2017.10.26 at 10h 45m 13s.xml">
+    <history-entry file="createMySQLTest_createTableTest - 2017.10.26 at 11h 25m 34s.xml">
       <configuration name="createMySQLTest.createTableTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="createMySQLTest_createTest - 2017.10.26 at 10h 38m 32s.xml">
-      <configuration name="createMySQLTest.createTest" configurationId="JUnit" />
+    <history-entry file="createMySQLTest_createTableTest - 2017.10.26 at 11h 33m 14s.xml">
+      <configuration name="createMySQLTest.createTableTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="createMySQLTest_createTest - 2017.10.26 at 10h 42m 00s.xml">
-      <configuration name="createMySQLTest.createTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="createMySQLTest_createTest - 2017.10.26 at 10h 42m 35s.xml">
-      <configuration name="createMySQLTest.createTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="createMySQLTest_createTest - 2017.10.26 at 10h 42m 54s.xml">
-      <configuration name="createMySQLTest.createTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="createMySQLTest_createTest - 2017.10.26 at 10h 43m 20s.xml">
-      <configuration name="createMySQLTest.createTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="createMySQLTest_dropTableTest - 2017.10.26 at 10h 47m 43s.xml">
+    <history-entry file="createMySQLTest_dropTableTest - 2017.10.26 at 11h 33m 10s.xml">
       <configuration name="createMySQLTest.dropTableTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="createMySQLTest_insertTableTest - 2017.10.26 at 11h 25m 40s.xml">
+      <configuration name="createMySQLTest.insertTableTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="createMySQLTest_insertTableTest - 2017.10.26 at 11h 26m 25s.xml">
+      <configuration name="createMySQLTest.insertTableTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="createMySQLTest_insertTableTest - 2017.10.26 at 11h 26m 30s.xml">
+      <configuration name="createMySQLTest.insertTableTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="createMySQLTest_insertTableTest - 2017.10.26 at 11h 32m 57s.xml">
+      <configuration name="createMySQLTest.insertTableTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="createMySQLTest_insertTableTest - 2017.10.26 at 11h 33m 19s.xml">
+      <configuration name="createMySQLTest.insertTableTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="createMySQLTest_insertTableTest - 2017.10.26 at 11h 33m 41s.xml">
+      <configuration name="createMySQLTest.insertTableTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="createMySQLTest_insertTableTest - 2017.10.26 at 11h 36m 56s.xml">
+      <configuration name="createMySQLTest.insertTableTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12090000" />
+    <option name="totallyTimeSpent" value="14168000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1024" y="-480" width="1920" height="1080" extended-state="0" />
@@ -1070,7 +1077,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/MySQL/FirstExampleTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <marker date="1508981469000" expanded="true" signature="653:911" ph="CREATE TABLE... aaa" />
@@ -1098,23 +1105,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MySQL/createMySQLTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/MySQL/createMySQL.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="49" column="48" lean-forward="false" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
+        <state relative-caret-position="629">
+          <caret line="184" column="50" lean-forward="true" selection-start-line="184" selection-start-column="50" selection-end-line="184" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1508985412000" expanded="true" signature="3467:3548" ph="INSERT INTO Registration... " />
+            <marker date="1508985412000" expanded="true" signature="4755:4866" ph="INSERT INTO DBUSER... " />
+            <marker date="1508985412000" expanded="true" signature="4798:4838" ph="(id, firstna... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MySQL/createMySQL.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/MySQL/createMySQLTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="121" column="52" lean-forward="true" selection-start-line="121" selection-start-column="52" selection-end-line="121" selection-end-column="52" />
+        <state relative-caret-position="572">
+          <caret line="63" column="56" lean-forward="false" selection-start-line="63" selection-start-column="56" selection-end-line="63" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1508983240000" expanded="true" signature="3564:3645" ph="INSERT INTO Registration... " />
+            <element signature="e#1258#1277#0" expanded="true" />
+            <element signature="e#1329#1337#0" expanded="true" />
+            <element signature="e#1447#1455#0" expanded="true" />
+            <element signature="e#1565#1573#0" expanded="true" />
           </folding>
         </state>
       </provider>
