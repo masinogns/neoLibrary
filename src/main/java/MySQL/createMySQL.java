@@ -154,7 +154,7 @@ public class createMySQL {
         PreparedStatement preparedStatement = null;
 
         String insertTableSQL = "INSERT INTO "+tableName
-                + "(firstname, lastname, secondname) VALUES"
+                + "(name, phone_number, address) VALUES"
                 + "(?,?,?)";
 
         try {

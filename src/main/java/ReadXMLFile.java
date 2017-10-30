@@ -52,7 +52,8 @@ public class ReadXMLFile {
         // 방법 2. 생성자를 만들 때, 필요 파라미터들을 넣어 실행하는 방법
         ReadXMLFile application = new ReadXMLFile(filePath, rootTagName, waanaTagNames);
         result = application.getValue();
-        application.printRun();
+//        result = findBracket(result);
+//        application.printRun(result);
 
 //        방법 1. 생성자를 만들어서 일일이 setting해주는 방법
 //        ReadXMLFile app = new ReadXMLFile();
@@ -62,15 +63,38 @@ public class ReadXMLFile {
 //        result = application.getValue();
     }
 
-    private void printRun() {
-        for (ArrayList<String> oneThing : this.result){
-            for (String item : oneThing){
-                System.out.print(item+" ");
+    public ArrayList<ArrayList<String>> findBracket(ArrayList<ArrayList<String>> result) {
+        int i = 0;
+        for (ArrayList<String> oneThing : result){
+            String one = oneThing.get(0);
+            String two = oneThing.get(1);
+            String three = oneThing.get(2);
+
+            if (three.contains("(")){
+                int index = three.indexOf("(");
+                three = three.substring(0, index);
             }
+
+            System.out.println(i+" "+one+two+three);
+        }
+
+        return result;
+    }
+
+    private void printRun(ArrayList<ArrayList<String>> result) {
+        int i = 0;
+        for (ArrayList<String> oneThing : this.result){
+
+
+            String one = oneThing.get(0);
+            String two = oneThing.get(1);
+            String three = oneThing.get(2);
+            if (three.contains("("))
+                System.out.println(one);
+            i++;
             System.out.println();
         }
     }
-
 
     /**
      *

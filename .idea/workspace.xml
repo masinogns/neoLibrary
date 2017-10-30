@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb8f9d39-ed4b-4c52-b9d3-0ff56328156a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/MySQL/createMySQL.java" afterPath="$PROJECT_DIR$/src/main/java/MySQL/createMySQL.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/MySQL/createMySQLTest.java" afterPath="$PROJECT_DIR$/src/test/java/MySQL/createMySQLTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ReadXMLFile.java" afterPath="$PROJECT_DIR$/src/main/java/ReadXMLFile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ReadXMLFileTest.java" afterPath="$PROJECT_DIR$/src/test/java/ReadXMLFileTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,8 +25,8 @@
       <file leaf-file-name="ReadXMLFile.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ReadXMLFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="70" selection-end-column="9" />
+            <state relative-caret-position="222">
+              <caret line="55" column="19" lean-forward="false" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -32,13 +34,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReadXMLFileTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ReadXMLFileTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ReadXMLFileTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+            <state relative-caret-position="323">
+              <caret line="99" column="22" lean-forward="false" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2948#2956#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,7 +83,7 @@
       <file leaf-file-name="FirstExample.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MySQL/FirstExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
+            <state relative-caret-position="874">
               <caret line="46" column="20" lean-forward="false" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
               <folding>
                 <marker date="1508981526000" expanded="true" signature="1357:1399" ph="SELECT id, f... " />
@@ -92,10 +95,9 @@
       <file leaf-file-name="FirstExampleTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/MySQL/FirstExampleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
+            <state relative-caret-position="513">
               <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <marker date="1508981469000" expanded="true" signature="653:911" ph="CREATE TABLE... aaa" />
               </folding>
             </state>
@@ -105,29 +107,25 @@
       <file leaf-file-name="createMySQL.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MySQL/createMySQL.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="184" column="50" lean-forward="true" selection-start-line="184" selection-start-column="50" selection-end-line="184" selection-end-column="50" />
+            <state relative-caret-position="1446">
+              <caret line="197" column="29" lean-forward="true" selection-start-line="197" selection-start-column="29" selection-end-line="197" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1508985412000" expanded="true" signature="3467:3548" ph="INSERT INTO Registration... " />
-                <marker date="1508985412000" expanded="true" signature="4755:4866" ph="INSERT INTO DBUSER... " />
-                <marker date="1508985412000" expanded="true" signature="4798:4838" ph="(id, firstna... " />
+                <marker date="1509332056000" expanded="true" signature="3467:3548" ph="INSERT INTO Registration... " />
+                <marker date="1509332056000" expanded="true" signature="4755:4862" ph="INSERT INTO DBUSER... " />
+                <marker date="1509332056000" expanded="true" signature="4798:4834" ph="(id, firstna... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="createMySQLTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="createMySQLTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/MySQL/createMySQLTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="63" column="56" lean-forward="false" selection-start-line="63" selection-start-column="56" selection-end-line="63" selection-end-column="56" />
+            <state relative-caret-position="418">
+              <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1258#1277#0" expanded="true" />
-                <element signature="e#1329#1337#0" expanded="true" />
-                <element signature="e#1447#1455#0" expanded="true" />
-                <element signature="e#1565#1573#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -168,14 +166,14 @@
         <option value="$PROJECT_DIR$/src/MySQL/InsertMySQL.java" />
         <option value="$PROJECT_DIR$/src/MySQL/FirstExample.java" />
         <option value="$PROJECT_DIR$/src/ReadXMLFile.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ReadXMLFile.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/test/java/ReadXMLFileTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/MySQL/FirstExampleTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/MySQL/FirstExample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MySQL/createMySQL.java" />
         <option value="$PROJECT_DIR$/src/test/java/MySQL/createMySQLTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MySQL/createMySQL.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ReadXMLFileTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ReadXMLFile.java" />
       </list>
     </option>
   </component>
@@ -216,6 +214,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -344,9 +345,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -360,8 +358,8 @@
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="FullScreen" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -375,20 +373,15 @@
       <recent name="$PROJECT_DIR$/lib" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.createMySQLTest.insertTableTest">
-    <configuration default="false" name="FirstExampleTest.createTableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="MySQL.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="JUnit.ReadXMLFileTest.input4">
+    <configuration default="false" name="ReadXMLFileTest.sql" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="neoXMLToMySql" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="MySQL" />
-      <option name="MAIN_CLASS_NAME" value="MySQL.FirstExampleTest" />
-      <option name="METHOD_NAME" value="createTableTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ReadXMLFileTest" />
+      <option name="METHOD_NAME" value="sql" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -402,19 +395,14 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="createMySQLTest.createTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="MySQL.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration default="false" name="ReadXMLFileTest.input1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="neoXMLToMySql" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="MySQL" />
-      <option name="MAIN_CLASS_NAME" value="MySQL.createMySQLTest" />
-      <option name="METHOD_NAME" value="createTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ReadXMLFileTest" />
+      <option name="METHOD_NAME" value="input1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -428,19 +416,14 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="createMySQLTest.createTableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="MySQL.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration default="false" name="ReadXMLFileTest.input2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="neoXMLToMySql" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="MySQL" />
-      <option name="MAIN_CLASS_NAME" value="MySQL.createMySQLTest" />
-      <option name="METHOD_NAME" value="createTableTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ReadXMLFileTest" />
+      <option name="METHOD_NAME" value="input2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -454,19 +437,14 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="createMySQLTest.dropTableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="MySQL.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration default="false" name="ReadXMLFileTest.input3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="neoXMLToMySql" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="MySQL" />
-      <option name="MAIN_CLASS_NAME" value="MySQL.createMySQLTest" />
-      <option name="METHOD_NAME" value="dropTableTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ReadXMLFileTest" />
+      <option name="METHOD_NAME" value="input3" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -480,19 +458,14 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="createMySQLTest.insertTableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="MySQL.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration default="false" name="ReadXMLFileTest.input4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="neoXMLToMySql" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="MySQL" />
-      <option name="MAIN_CLASS_NAME" value="MySQL.createMySQLTest" />
-      <option name="METHOD_NAME" value="insertTableTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ReadXMLFileTest" />
+      <option name="METHOD_NAME" value="input4" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -887,19 +860,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.FirstExampleTest.createTableTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.createMySQLTest.createTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.createMySQLTest.createTableTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.createMySQLTest.dropTableTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.createMySQLTest.insertTableTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ReadXMLFileTest.sql" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ReadXMLFileTest.input1" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ReadXMLFileTest.input2" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ReadXMLFileTest.input3" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ReadXMLFileTest.input4" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.createMySQLTest.insertTableTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.createMySQLTest.createTableTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.createMySQLTest.dropTableTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.createMySQLTest.createTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.FirstExampleTest.createTableTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ReadXMLFileTest.input4" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ReadXMLFileTest.input3" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ReadXMLFileTest.input2" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ReadXMLFileTest.input1" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ReadXMLFileTest.sql" />
       </list>
     </recent_temporary>
   </component>
@@ -914,44 +887,45 @@
       <option name="presentableId" value="Default" />
       <updated>1508912453232</updated>
       <workItem from="1508912456251" duration="7462000" />
-      <workItem from="1508978518930" duration="6706000" />
+      <workItem from="1508978518930" duration="7003000" />
+      <workItem from="1509322177368" duration="8369000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="createMySQLTest_createTableTest - 2017.10.26 at 11h 25m 34s.xml">
-      <configuration name="createMySQLTest.createTableTest" configurationId="JUnit" />
+    <history-entry file="ReadXMLFileTest - 2017.10.30 at 12h 10m 00s.xml">
+      <configuration name="ReadXMLFileTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="createMySQLTest_createTableTest - 2017.10.26 at 11h 33m 14s.xml">
-      <configuration name="createMySQLTest.createTableTest" configurationId="JUnit" />
+    <history-entry file="ReadXMLFileTest - 2017.10.30 at 12h 11m 19s.xml">
+      <configuration name="ReadXMLFileTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="createMySQLTest_dropTableTest - 2017.10.26 at 11h 33m 10s.xml">
-      <configuration name="createMySQLTest.dropTableTest" configurationId="JUnit" />
+    <history-entry file="ReadXMLFileTest_input1 - 2017.10.30 at 14h 46m 43s.xml">
+      <configuration name="ReadXMLFileTest.input1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="createMySQLTest_insertTableTest - 2017.10.26 at 11h 25m 40s.xml">
-      <configuration name="createMySQLTest.insertTableTest" configurationId="JUnit" />
+    <history-entry file="ReadXMLFileTest_input2 - 2017.10.30 at 14h 46m 50s.xml">
+      <configuration name="ReadXMLFileTest.input2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="createMySQLTest_insertTableTest - 2017.10.26 at 11h 26m 25s.xml">
-      <configuration name="createMySQLTest.insertTableTest" configurationId="JUnit" />
+    <history-entry file="ReadXMLFileTest_input3 - 2017.10.30 at 14h 47m 04s.xml">
+      <configuration name="ReadXMLFileTest.input3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="createMySQLTest_insertTableTest - 2017.10.26 at 11h 26m 30s.xml">
-      <configuration name="createMySQLTest.insertTableTest" configurationId="JUnit" />
+    <history-entry file="ReadXMLFileTest_sql - 2017.10.30 at 14h 46m 12s.xml">
+      <configuration name="ReadXMLFileTest.sql" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="createMySQLTest_insertTableTest - 2017.10.26 at 11h 32m 57s.xml">
-      <configuration name="createMySQLTest.insertTableTest" configurationId="JUnit" />
+    <history-entry file="ReadXMLFileTest_test - 2017.10.30 at 13h 09m 25s.xml">
+      <configuration name="ReadXMLFileTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="createMySQLTest_insertTableTest - 2017.10.26 at 11h 33m 19s.xml">
-      <configuration name="createMySQLTest.insertTableTest" configurationId="JUnit" />
+    <history-entry file="ReadXMLFileTest_test - 2017.10.30 at 13h 11m 06s.xml">
+      <configuration name="ReadXMLFileTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="createMySQLTest_insertTableTest - 2017.10.26 at 11h 33m 41s.xml">
-      <configuration name="createMySQLTest.insertTableTest" configurationId="JUnit" />
+    <history-entry file="ReadXMLFileTest_test - 2017.10.30 at 13h 13m 07s.xml">
+      <configuration name="ReadXMLFileTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="createMySQLTest_insertTableTest - 2017.10.26 at 11h 36m 56s.xml">
-      <configuration name="createMySQLTest.insertTableTest" configurationId="JUnit" />
+    <history-entry file="ReadXMLFileTest_test - 2017.10.30 at 13h 15m 36s.xml">
+      <configuration name="ReadXMLFileTest.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14168000" />
+    <option name="totallyTimeSpent" value="22834000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1024" y="-480" width="1920" height="1080" extended-state="0" />
@@ -966,26 +940,26 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32913843" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32913843" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1890625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913843" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913843" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -995,7 +969,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1003,6 +979,97 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ReadXMLFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1064">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="70" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ReadXMLFileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2948#2956#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="57">
+            <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MySQL/InsertMySQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MySQL/FirstExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="46" column="20" lean-forward="false" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+          <folding>
+            <marker date="1508981526000" expanded="true" signature="1357:1399" ph="SELECT id, f... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MySQL/FirstExampleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <marker date="1508981469000" expanded="true" signature="653:911" ph="CREATE TABLE... aaa" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MySQL/createMySQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3477">
+          <caret line="184" column="50" lean-forward="true" selection-start-line="184" selection-start-column="50" selection-end-line="184" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1509332056000" expanded="true" signature="3467:3548" ph="INSERT INTO Registration... " />
+            <marker date="1509332056000" expanded="true" signature="4755:4862" ph="INSERT INTO DBUSER... " />
+            <marker date="1509332056000" expanded="true" signature="4798:4834" ph="(id, firstna... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MySQL/createMySQLTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ReadXMLFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="665">
@@ -1037,14 +1104,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MySQL/InsertMySQL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -1064,22 +1123,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ReadXMLFileTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MySQL/FirstExampleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
+        <state relative-caret-position="513">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <marker date="1508981469000" expanded="true" signature="653:911" ph="CREATE TABLE... aaa" />
           </folding>
         </state>
@@ -1087,7 +1135,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MySQL/FirstExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
+        <state relative-caret-position="874">
           <caret line="46" column="20" lean-forward="false" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
           <folding>
             <marker date="1508981526000" expanded="true" signature="1357:1399" ph="SELECT id, f... " />
@@ -1095,10 +1143,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ReadXMLFile.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/MySQL/InsertMySQL.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="70" selection-end-column="9" />
+        <state relative-caret-position="95">
+          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MySQL/createMySQLTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1107,27 +1163,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MySQL/createMySQL.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="184" column="50" lean-forward="true" selection-start-line="184" selection-start-column="50" selection-end-line="184" selection-end-column="50" />
+        <state relative-caret-position="1446">
+          <caret line="197" column="29" lean-forward="true" selection-start-line="197" selection-start-column="29" selection-end-line="197" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1508985412000" expanded="true" signature="3467:3548" ph="INSERT INTO Registration... " />
-            <marker date="1508985412000" expanded="true" signature="4755:4866" ph="INSERT INTO DBUSER... " />
-            <marker date="1508985412000" expanded="true" signature="4798:4838" ph="(id, firstna... " />
+            <marker date="1509332056000" expanded="true" signature="3467:3548" ph="INSERT INTO Registration... " />
+            <marker date="1509332056000" expanded="true" signature="4755:4862" ph="INSERT INTO DBUSER... " />
+            <marker date="1509332056000" expanded="true" signature="4798:4834" ph="(id, firstna... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MySQL/createMySQLTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ReadXMLFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="63" column="56" lean-forward="false" selection-start-line="63" selection-start-column="56" selection-end-line="63" selection-end-column="56" />
+        <state relative-caret-position="222">
+          <caret line="55" column="19" lean-forward="false" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1258#1277#0" expanded="true" />
-            <element signature="e#1329#1337#0" expanded="true" />
-            <element signature="e#1447#1455#0" expanded="true" />
-            <element signature="e#1565#1573#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ReadXMLFileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="99" column="22" lean-forward="false" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2948#2956#0" expanded="true" />
           </folding>
         </state>
       </provider>
