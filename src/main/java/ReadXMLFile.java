@@ -84,7 +84,7 @@ public class ReadXMLFile {
 
             ret.add(item);
 
-            System.out.println(one+two+three);
+//            System.out.println(one+two+three);
         }
 
         return ret;

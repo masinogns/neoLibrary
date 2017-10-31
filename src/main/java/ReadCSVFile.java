@@ -30,10 +30,15 @@ public class ReadCSVFile {
 //            System.out.println("7." + nextLine[6]);
 //            System.out.println();
 
+//            이것은 aaa일 때 향토 음식점 대상
             item.add(nextLine[2]);
-            item.add(nextLine[4]);
             item.add(nextLine[6]);
+            item.add(nextLine[4]);
 
+//            // bbb일 때
+//            item.add(nextLine[5]);
+//            item.add(nextLine[7]);
+//            item.add(nextLine[6]);
             result.add(item);
         }
 
