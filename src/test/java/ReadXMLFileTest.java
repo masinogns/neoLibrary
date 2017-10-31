@@ -107,11 +107,30 @@ public class ReadXMLFileTest {
         inputData(filePath, rootTagName, waanaTagNames);
     }
 
+    @Test
+    public void inputOne() throws Exception {
+        MySQL.createMySQL mySQL = new MySQL.createMySQL(DB_URL, DB_ID, DB_PW);
+
+        String tableName = "house";
+        ArrayList<String> data = new ArrayList<String>(Arrays.asList(
+                "이익전 데쓰", "아리가또이익전데쓰", "제주특별자치도 서귀포시 중문상로 8612"
+        ));
+
+        String sql = "select * from "+tableName
+                +" where address = "+"\'제주특별자치도 서귀포시 중문상로 8612\'";
+
+
+        if (mySQL.select(sql)){
+            System.out.println("이미 값이 있어 패스합니다");
+        }else {
+            mySQL.insertOne(tableName, data);
+        };
+    }
+
     private void inputData(String filePath, String rootTagName, ArrayList<String> waanaTagNames) throws SQLException {
         ArrayList<ArrayList<String>> result;
         ReadXMLFile application = new ReadXMLFile(filePath, rootTagName, waanaTagNames);
-        result = application.getValue();
-        result = application.findBracket(result);
+        result = application.findBracket(application.getValue());
 
         MySQL.createMySQL mySQL = new MySQL.createMySQL(DB_URL, DB_ID, DB_PW);
 
@@ -124,3 +143,5 @@ public class ReadXMLFileTest {
 //        FROM house
 //        GROUP BY address
 //        HAVING 1 < n;
+
+// delete from house where id not in (select * from (select min(id) from house group by address) as t);

@@ -64,8 +64,11 @@ public class ReadXMLFile {
     }
 
     public ArrayList<ArrayList<String>> findBracket(ArrayList<ArrayList<String>> result) {
-        int i = 0;
+        ArrayList<ArrayList<String>> ret = new ArrayList<ArrayList<String>>();
+
         for (ArrayList<String> oneThing : result){
+            ArrayList<String> item = new ArrayList<String>();
+
             String one = oneThing.get(0);
             String two = oneThing.get(1);
             String three = oneThing.get(2);
@@ -75,10 +78,16 @@ public class ReadXMLFile {
                 three = three.substring(0, index);
             }
 
-            System.out.println(i+" "+one+two+three);
+            item.add(0, one);
+            item.add(1, two);
+            item.add(2, three);
+
+            ret.add(item);
+
+            System.out.println(one+two+three);
         }
 
-        return result;
+        return ret;
     }
 
     private void printRun(ArrayList<ArrayList<String>> result) {

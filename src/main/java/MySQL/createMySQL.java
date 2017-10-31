@@ -97,8 +97,48 @@ public class createMySQL {
         System.out.println("Goodbye!");
     }//end dropTable
 
-    public void insertDataToTable(String tableName, ArrayList<ArrayList<String>> data) {
+    public boolean select(String query) throws SQLException {
+        boolean check = false;
+        ResultSet rs = null;
+        Statement stmt = null;
 
+        try {
+            Class.forName(JDBC_DRIVER);
+            conn = DriverManager.getConnection(DB_URL, DB_ID, DB_PW);
+            stmt = conn.createStatement();
+            rs = stmt.executeQuery(query);
+
+            while(rs.next()){
+                check = true;
+                break;
+            }
+        } catch (ClassNotFoundException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } finally {
+            if (rs != null){
+                rs.close();
+            }
+            if (stmt!= null) {
+                stmt.close();
+            }
+            if (conn != null) {
+                conn.close();
+            }
+    }
+
+        return check;
+    }
+    public void insertOne(String tableName, ArrayList<String> data) {
+
+        String insert = "INSERT INTO "+tableName
+                + "(name, phone_number, address) VALUES"
+                + "(?,?,?)";
+
+        String select = "select * from "+ tableName
+                + "where address "+data.get(2);
 
         try{
             //STEP 2: Register JDBC driver
@@ -111,19 +151,13 @@ public class createMySQL {
 
             //STEP 4: Execute a query
             System.out.println("Inserting records into the table...");
-            stmt = conn.createStatement();
 
-            String sql = "INSERT INTO Registration " +
-                    "VALUES (100, 'Zara', 'Ali', 18)";
+            PreparedStatement preparedStatement = conn.prepareStatement(insert);
+            preparedStatement.setString(1, data.get(0));
+            preparedStatement.setString(2, data.get(1));
+            preparedStatement.setString(3, data.get(2));
 
-            for (ArrayList<String> oneThing : data){
-                for (String item : oneThing){
-                    System.out.print(item+" ");
-                }
-                System.out.println();
-            }
-
-            stmt.executeUpdate(sql);
+            preparedStatement.executeUpdate();
 
             System.out.println("Inserted records into the table...");
 
@@ -176,6 +210,16 @@ public class createMySQL {
                 one = oneThing.get(0);
                 two = oneThing.get(1);
                 three = oneThing.get(2);
+
+//                String sql = "select * from "+tableName
+//                        +" where address = "+"\'"+three+"\'" +
+//                        "and " +
+//                        "name = "+"\'"+one+"\'";
+//
+//                if (select(sql)){
+//                    continue;
+//                }
+                // ReadXMLFILE에 있는 delete not in sql로 다 중복을 다 지울 수 있으니 이렇게 하지말것 시간 너무 오래걸림
 
                 preparedStatement.setString(1, one);
                 preparedStatement.setString(2, two);
