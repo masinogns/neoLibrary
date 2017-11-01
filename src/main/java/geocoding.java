@@ -30,24 +30,42 @@ public class geocoding {
 */
 
 private static final String URL = "http://maps.googleapis.com/maps/api/geocode/json";
+private double lng;
+private double lat;
 
-/*
-* Here the fullAddress String is in format like "address,city,state,zipcode". Here address means "street number + route" .
-*
-*/
-        public static void main(String[] args) throws IOException, ParseException {
-                geocoding bb = new geocoding();
-                String path = "\"제주특별자치도 제주시 거로중길 28\"";
-                ArrayList<Double> ret = bb.run(path);
-
-                System.out.println("result location");
-                System.out.println("lng : "+ret.get(0));
-                System.out.println("lat : "+ret.get(1));
+        public double getLng() {
+                return lng;
         }
 
-        public ArrayList run(String path) throws IOException, ParseException {
+        public void setLng(double lng) {
+                this.lng = lng;
+        }
+
+        public double getLat() {
+                return lat;
+        }
+
+        public void setLat(double lat) {
+                this.lat = lat;
+        }
+
+        /*
+        * Here the fullAddress String is in format like "address,city,state,zipcode". Here address means "street number + route" .
+        *
+        */
+        public static void main(String[] args) throws IOException, ParseException {
+//                geocoding bb = new geocoding();
+//                String path = "\"제주특별자치도 제주시 거로중길 28\"";
+//                ArrayList<Double> ret = bb.run(path);
+//
+//                System.out.println("result location");
+//                System.out.println("lng : "+ret.get(0));
+//                System.out.println("lat : "+ret.get(1));
+        }
+
+        public void run(String path) throws IOException, ParseException {
                 String ret = getJSONByGoogle(path);
-                System.out.println(ret);
+//                System.out.println(ret);
                 JSONObject json = stringToJson(ret);
 //                System.out.println(json);
                 Iterator it = json.keySet().iterator();
@@ -73,7 +91,12 @@ private static final String URL = "http://maps.googleapis.com/maps/api/geocode/j
                         result.add((Double) itt.next());
                 }
 
-                return result;
+
+//                System.out.println("lng : "+result.get(0));
+                setLng(result.get(0));
+
+//                System.out.println("lat : "+result.get(1));
+                setLat(result.get(1));
         }
 
 
